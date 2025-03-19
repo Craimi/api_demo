@@ -12,9 +12,9 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.net.URI;
 import java.util.List;
 
+@CrossOrigin(origins = "http://apidemo-production.up.railway.app")
 @RestController
 @RequestMapping("/alumno")
-@CrossOrigin(originPatterns = "http://apidemo-production.up.railway.app/alumno")
 public class AlumnoController {
 
     @Autowired
